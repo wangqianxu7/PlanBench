@@ -1,0 +1,351 @@
+Model: chatglm3-6b
+  Type: Remember
+    Answer1 Match: 75.3
+  Type: Understand
+    Answer1 Match: 18.8
+  Type: Apply
+    Answer1 Match: 53.1
+  Type: Analyze
+    Answer1 Match: 67.9
+  Type: Evaluate
+    Answer1 Match: 27.2
+  Average Score: 48.5
+
+Model: glm-4-9b
+  Type: Remember
+    Answer1 Match: 92.6
+  Type: Understand
+    Answer1 Match: 39.5
+  Type: Apply
+    Answer1 Match: 81.5
+  Type: Analyze
+    Answer1 Match: 80.2
+  Type: Evaluate
+    Answer1 Match: 39.5
+  Average Score: 66.7
+
+Model: DeepSeek-R1-Distill-Llama-8B
+  Type: Remember
+    Answer1 Match: 92.6
+  Type: Understand
+    Answer1 Match: 44.4
+  Type: Apply
+    Answer1 Match: 76.5
+  Type: Analyze
+    Answer1 Match: 82.7
+  Type: Evaluate
+    Answer1 Match: 27.2
+  Average Score: 64.7
+
+Model: DeepSeek-R1-Distill-Qwen-7B
+  Type: Remember
+    Answer1 Match: 92.6
+  Type: Understand
+    Answer1 Match: 51.9
+  Type: Apply
+    Answer1 Match: 70.4
+  Type: Analyze
+    Answer1 Match: 79.0
+  Type: Evaluate
+    Answer1 Match: 30.9
+  Average Score: 65.0
+
+Model: Llama-3.1-Tulu-3-8B
+  Type: Remember
+    Answer1 Match: 95.1
+  Type: Understand
+    Answer1 Match: 46.9
+  Type: Apply
+    Answer1 Match: 79.0
+  Type: Analyze
+    Answer1 Match: 98.8
+  Type: Evaluate
+    Answer1 Match: 45.7
+  Average Score: 73.1
+
+Model: Meta-Llama-3-8B-Instruct
+  Type: Remember
+    Answer1 Match: 91.4
+  Type: Understand
+    Answer1 Match: 42.0
+  Type: Apply
+    Answer1 Match: 82.7
+  Type: Analyze
+    Answer1 Match: 97.5
+  Type: Evaluate
+    Answer1 Match: 45.7
+  Average Score: 71.9
+
+Model: Qwen2-5-3B-Instruct
+  Type: Remember
+    Answer1 Match: 95.1
+  Type: Understand
+    Answer1 Match: 48.1
+  Type: Apply
+    Answer1 Match: 84.0
+  Type: Analyze
+    Answer1 Match: 80.2
+  Type: Evaluate
+    Answer1 Match: 40.7
+  Average Score: 69.6
+
+Model: Qwen2-5-7B-Instruct
+  Type: Remember
+    Answer1 Match: 96.3
+  Type: Understand
+    Answer1 Match: 45.7
+  Type: Apply
+    Answer1 Match: 84.0
+  Type: Analyze
+    Answer1 Match: 87.7
+  Type: Evaluate
+    Answer1 Match: 46.9
+  Average Score: 72.1
+
+Model: Qwen2.5-VL-7B-Instruct
+  Type: Remember
+    Answer1 Match: 93.8
+  Type: Understand
+    Answer1 Match: 27.2
+  Type: Apply
+    Answer1 Match: 82.7
+  Type: Analyze
+    Answer1 Match: 85.2
+  Type: Evaluate
+    Answer1 Match: 43.2
+  Average Score: 66.4
+
+Model: Qwen2-VL-7B-Instruct
+  Type: Remember
+    Answer1 Match: 91.4
+  Type: Understand
+    Answer1 Match: 39.5
+  Type: Apply
+    Answer1 Match: 87.7
+  Type: Analyze
+    Answer1 Match: 65.4
+  Type: Evaluate
+    Answer1 Match: 37.0
+  Average Score: 64.2
+
+Model: Qwen2.5-0.5B-Instruct
+  Type: Remember
+    Answer1 Match: 79.0
+  Type: Understand
+    Answer1 Match: 8.6
+  Type: Apply
+    Answer1 Match: 27.5
+  Type: Analyze
+    Answer1 Match: 56.8
+  Type: Evaluate
+    Answer1 Match: 19.8
+  Average Score: 38.3
+
+Model: Qwen3-0.6B
+  Type: Remember
+    Answer1 Match: 86.4
+  Type: Understand
+    Answer1 Match: 38.3
+  Type: Apply
+    Answer1 Match: 43.2
+  Type: Analyze
+    Answer1 Match: 49.4
+  Type: Evaluate
+    Answer1 Match: 29.6
+  Average Score: 49.4
+
+Model: Qwen3-1.7B
+  Type: Remember
+    Answer1 Match: 96.3
+  Type: Understand
+    Answer1 Match: 49.4
+  Type: Apply
+    Answer1 Match: 81.5
+  Type: Analyze
+    Answer1 Match: 77.8
+  Type: Evaluate
+    Answer1 Match: 43.2
+  Average Score: 69.6
+
+Model: Qwen3-4B
+  Type: Remember
+    Answer1 Match: 92.6
+  Type: Understand
+    Answer1 Match: 58.0
+  Type: Apply
+    Answer1 Match: 84.0
+  Type: Analyze
+    Answer1 Match: 97.5
+  Type: Evaluate
+    Answer1 Match: 54.3
+  Average Score: 77.3
+
+Model: Qwen3-8B
+  Type: Remember
+    Answer1 Match: 95.1
+  Type: Understand
+    Answer1 Match: 66.7
+  Type: Apply
+    Answer1 Match: 91.4
+  Type: Analyze
+    Answer1 Match: 100.0
+  Type: Evaluate
+    Answer1 Match: 63.0
+  Average Score: 83.2
+
+Model: Qwen3-14B
+  Type: Remember
+    Answer1 Match: 96.3
+  Type: Understand
+    Answer1 Match: 69.1
+  Type: Apply
+    Answer1 Match: 92.6
+  Type: Analyze
+    Answer1 Match: 98.8
+  Type: Evaluate
+    Answer1 Match: 56.8
+  Average Score: 82.7
+
+Model: Qwen3-30B-A3B
+  Type: Remember
+    Answer1 Match: 98.8
+  Type: Understand
+    Answer1 Match: 70.4
+  Type: Apply
+    Answer1 Match: 86.4
+  Type: Analyze
+    Answer1 Match: 93.8
+  Type: Evaluate
+    Answer1 Match: 43.2
+  Average Score: 78.5
+
+Model: Qwen3-32B
+  Type: Remember
+    Answer1 Match: 95.1
+  Type: Understand
+    Answer1 Match: 66.7
+  Type: Apply
+    Answer1 Match: 91.4
+  Type: Analyze
+    Answer1 Match: 100.0
+  Type: Evaluate
+    Answer1 Match: 58.0
+  Average Score: 82.2
+
+Model: QwQ-32B
+  Type: Remember
+    Answer1 Match: 96.3
+  Type: Understand
+    Answer1 Match: 70.0
+  Type: Apply
+    Answer1 Match: 87.7
+  Type: Analyze
+    Answer1 Match: 100.0
+  Type: Evaluate
+    Answer1 Match: 48.1
+  Average Score: 80.4
+
+Model: Yi-6B-Chat
+  Type: Remember
+    Answer1 Match: 80.2
+  Type: Understand
+    Answer1 Match: 24.7
+  Type: Apply
+    Answer1 Match: 64.2
+  Type: Analyze
+    Answer1 Match: 86.4
+  Type: Evaluate
+    Answer1 Match: 39.5
+  Average Score: 59.0
+
+Model: gemma-7b-it
+  Type: Remember
+    Answer1 Match: 85.2
+  Type: Understand
+    Answer1 Match: 13.6
+  Type: Apply
+    Answer1 Match: 56.8
+  Type: Analyze
+    Answer1 Match: 90.0
+  Type: Evaluate
+    Answer1 Match: 30.9
+  Average Score: 55.3
+
+Model: gemma-2-2b-it
+  Type: Remember
+    Answer1 Match: 88.9
+  Type: Understand
+    Answer1 Match: 24.7
+  Type: Apply
+    Answer1 Match: 88.9
+  Type: Analyze
+    Answer1 Match: 86.4
+  Type: Evaluate
+    Answer1 Match: 30.9
+  Average Score: 64.0
+
+Model: gemma-2-9b-it
+  Type: Remember
+    Answer1 Match: 97.5
+  Type: Understand
+    Answer1 Match: 56.8
+  Type: Apply
+    Answer1 Match: 95.1
+  Type: Analyze
+    Answer1 Match: 90.1
+  Type: Evaluate
+    Answer1 Match: 39.5
+  Average Score: 75.8
+
+Model: gemma-3-4b-it
+  Type: Remember
+    Answer1 Match: 0.0
+  Type: Understand
+    Answer1 Match: 1.4
+  Type: Apply
+    Answer1 Match: 1.2
+  Type: Analyze
+    Answer1 Match: 0.0
+  Type: Evaluate
+    Answer1 Match: 0.0
+  Average Score: 0.5
+
+Model: gpt-4o-mini
+  Type: Remember
+    Answer1 Match: 97.5
+  Type: Understand
+    Answer1 Match: 56.8
+  Type: Apply
+    Answer1 Match: 87.7
+  Type: Analyze
+    Answer1 Match: 92.6
+  Type: Evaluate
+    Answer1 Match: 43.2
+  Average Score: 75.6
+
+Model: gemini-2.5-flash
+  Type: Remember
+    Answer1 Match: 97.5
+  Type: Understand
+    Answer1 Match: 88.9
+  Type: Apply
+    Answer1 Match: 88.9
+  Type: Analyze
+    Answer1 Match: 97.5
+  Type: Evaluate
+    Answer1 Match: 82.7
+  Average Score: 91.1
+
+Model: claude-haiku-4-5-20251001
+  Type: Remember
+    Answer1 Match: 95.1
+  Type: Understand
+    Answer1 Match: 67.9
+  Type: Apply
+    Answer1 Match: 98.8
+  Type: Analyze
+    Answer1 Match: 98.8
+  Type: Evaluate
+    Answer1 Match: 71.6
+  Average Score: 86.4
+

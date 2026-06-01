@@ -1,0 +1,260 @@
+Model: chatglm3-6b
+  Type: 记忆能力
+    Answer1 Match: 80.2
+  Type: 理解能力
+    Answer1 Match: 37.5
+  Type: 应用能力
+    Answer1 Match: 44.4
+  Type: 分析能力
+    Answer2 Match: 58.3
+  Type: 评价能力
+    Answer1 Match: 21.0
+  Average Score: 48.3
+
+Model: DeepSeek-R1-Distill-Llama-8B
+  Type: 记忆能力
+    Answer1 Match: 93.8
+  Type: 理解能力
+    Answer1 Match: 64.2
+  Type: 应用能力
+    Answer1 Match: 75.3
+  Type: 分析能力
+    Answer2 Match: 78.8
+  Type: 评价能力
+    Answer1 Match: 28.4
+  Average Score: 68.1
+
+Model: DeepSeek-R1-Distill-Qwen-7B
+  Type: 记忆能力
+    Answer1 Match: 96.3
+  Type: 理解能力
+    Answer1 Match: 69.1
+  Type: 应用能力
+    Answer1 Match: 77.8
+  Type: 分析能力
+    Answer2 Match: 73.4
+  Type: 评价能力
+    Answer1 Match: 23.5
+  Average Score: 68.0
+
+Model: Meta-Llama-3-8B-Instruct
+  Type: 记忆能力
+    Answer1 Match: 95.1
+  Type: 理解能力
+    Answer1 Match: 58.0
+  Type: 应用能力
+    Answer1 Match: 72.8
+  Type: 分析能力
+    Answer2 Match: 78.8
+  Type: 评价能力
+    Answer1 Match: 48.1
+  Average Score: 70.6
+
+Model: Qwen2-5-3B-Instruct
+  Type: 记忆能力
+    Answer1 Match: 98.8
+  Type: 理解能力
+    Answer1 Match: 66.7
+  Type: 应用能力
+    Answer1 Match: 92.6
+  Type: 分析能力
+    Answer2 Match: 64.0
+  Type: 评价能力
+    Answer1 Match: 29.6
+  Average Score: 70.3
+
+Model: Qwen2-5-7B-Instruct
+  Type: 记忆能力
+    Answer1 Match: 98.8
+  Type: 理解能力
+    Answer1 Match: 70.4
+  Type: 应用能力
+    Answer1 Match: 81.5
+  Type: 分析能力
+    Answer2 Match: 65.9
+  Type: 评价能力
+    Answer1 Match: 30.9
+  Average Score: 69.5
+
+Model: Qwen2-VL-7B-Instruct
+  Type: 记忆能力
+    Answer1 Match: 93.8
+  Type: 理解能力
+    Answer1 Match: 65.4
+  Type: 应用能力
+    Answer1 Match: 76.5
+  Type: 分析能力
+    Answer2 Match: 65.7
+  Type: 评价能力
+    Answer1 Match: 39.5
+  Average Score: 68.2
+
+Model: Qwen3-4B
+  Type: 记忆能力
+    Answer1 Match: 95.1
+  Type: 理解能力
+    Answer1 Match: 72.8
+  Type: 应用能力
+    Answer1 Match: 90.1
+  Type: 分析能力
+    Answer2 Match: 89.3
+  Type: 评价能力
+    Answer1 Match: 46.9
+  Average Score: 78.8
+
+Model: Qwen3-8B
+  Type: 记忆能力
+    Answer1 Match: 93.8
+  Type: 理解能力
+    Answer1 Match: 80.2
+  Type: 应用能力
+    Answer1 Match: 90.1
+  Type: 分析能力
+    Answer2 Match: 90.4
+  Type: 评价能力
+    Answer1 Match: 45.7
+  Average Score: 80.0
+
+Model: Qwen3-14B
+  Type: 记忆能力
+    Answer1 Match: 97.5
+  Type: 理解能力
+    Answer1 Match: 77.8
+  Type: 应用能力
+    Answer1 Match: 92.6
+  Type: 分析能力
+    Answer2 Match: 86.8
+  Type: 评价能力
+    Answer1 Match: 48.1
+  Average Score: 80.6
+
+Model: Qwen3-30B-A3B
+  Type: 记忆能力
+    Answer1 Match: 97.5
+  Type: 理解能力
+    Answer1 Match: 79.0
+  Type: 应用能力
+    Answer1 Match: 88.9
+  Type: 分析能力
+    Answer2 Match: 89.5
+  Type: 评价能力
+    Answer1 Match: 37.0
+  Average Score: 78.4
+
+Model: Qwen3-32B
+  Type: 记忆能力
+    Answer1 Match: 97.5
+  Type: 理解能力
+    Answer1 Match: 86.4
+  Type: 应用能力
+    Answer1 Match: 95.1
+  Type: 分析能力
+    Answer2 Match: 86.1
+  Type: 评价能力
+    Answer1 Match: 39.5
+  Average Score: 80.9
+
+Model: QwQ-32B
+  Type: 记忆能力
+    Answer1 Match: 95.1
+  Type: 理解能力
+    Answer1 Match: 85.2
+  Type: 应用能力
+    Answer1 Match: 91.4
+  Type: 分析能力
+    Answer2 Match: 91.9
+  Type: 评价能力
+    Answer1 Match: 38.3
+  Average Score: 80.4
+
+Model: Yi-6B-Chat
+  Type: 记忆能力
+    Answer1 Match: 93.8
+  Type: 理解能力
+    Answer1 Match: 48.1
+  Type: 应用能力
+    Answer1 Match: 75.3
+  Type: 分析能力
+    Answer2 Match: 85.6
+  Type: 评价能力
+    Answer1 Match: 26.2
+  Average Score: 65.8
+
+Model: gemma-2-2b-it
+  Type: 记忆能力
+    Answer1 Match: 33.3
+  Type: 理解能力
+    Answer1 Match: 6.2
+  Type: 应用能力
+    Answer1 Match: 33.3
+  Type: 分析能力
+    Answer2 Match: 70.8
+  Type: 评价能力
+    Answer1 Match: 6.2
+  Average Score: 30.0
+
+Model: gemma-2-9b-it
+  Type: 记忆能力
+    Answer1 Match: 87.7
+  Type: 理解能力
+    Answer1 Match: 44.4
+  Type: 应用能力
+    Answer1 Match: 75.3
+  Type: 分析能力
+    Answer2 Match: 69.0
+  Type: 评价能力
+    Answer1 Match: 28.4
+  Average Score: 61.0
+
+Model: gemma-3-4b-it
+  Type: 记忆能力
+    Answer1 Match: 96.3
+  Type: 理解能力
+    Answer1 Match: 75.3
+  Type: 应用能力
+    Answer1 Match: 90.1
+  Type: 分析能力
+    Answer2 Match: 67.3
+  Type: 评价能力
+    Answer1 Match: 33.3
+  Average Score: 72.5
+
+Model: gpt-4o-mini
+  Type: 记忆能力
+    Answer1 Match: 95.1
+  Type: 理解能力
+    Answer1 Match: 77.8
+  Type: 应用能力
+    Answer1 Match: 85.2
+  Type: 分析能力
+    Answer2 Match: 62.1
+  Type: 评价能力
+    Answer1 Match: 37.0
+  Average Score: 71.4
+
+Model: gemini-2.5-flash
+  Type: 记忆能力
+    Answer1 Match: 40.7
+  Type: 理解能力
+    Answer1 Match: 35.8
+  Type: 应用能力
+    Answer1 Match: 58.0
+  Type: 分析能力
+    Answer2 Match: 84.0
+  Type: 评价能力
+    Answer1 Match: 17.3
+  Average Score: 47.2
+
+Model: claude-haiku-4-5-20251001
+  Type: 记忆能力
+    Answer1 Match: 97.5
+  Type: 理解能力
+    Answer1 Match: 71.6
+  Type: 应用能力
+    Answer1 Match: 95.1
+  Type: 分析能力
+    Answer2 Match: 88.8
+  Type: 评价能力
+    Answer1 Match: 59.3
+  Average Score: 82.5
+
