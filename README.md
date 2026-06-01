@@ -143,14 +143,38 @@ PlanBench/
     └── results/                      # Vision eval results
 ```
 
-## PlanBench-V Results (Vision, Judge: gpt-4o-mini, 300 items)
+## PlanBench-V Results (Vision, Judge: gpt-4o-mini, 300-item stratified subset)
 
-| Rank | Model | Overall | Description | Type | Evaluation | Decision | Domain Reasoning | Association | Spatial Relation | Element |
-|------|-------|---------|------|------|------|------|----------|------|----------|------|
-| 🥇 | gemini-2.5-pro | **1.472/2 (73.6%)** | 1.775 | 1.656 | 1.439 | 1.525 | 1.425 | 1.468 | 1.444 | 1.408 |
-| 🥈 | gpt-5.4 | **1.431/2 (71.6%)** | 1.900 | 1.562 | 1.586 | 1.508 | 1.486 | 1.438 | 1.383 | 1.233 |
-| 🥉 | claude-opus-4.7 | **1.384/2 (69.2%)** | 1.825 | 1.320 | 1.434 | 1.321 | 1.558 | 1.493 | 1.295 | 1.186 |
-| 4 | gpt-4o-mini | **1.084/2 (54.2%)** | 1.244 | 1.342 | 0.901 | 1.155 | 1.079 | 1.110 | 1.151 | 0.918 |
+Numbers match Table 2 in the IJGIS paper. Overall is a per-item (micro) average over the 300-item subset, so it is not the unweighted mean of the eight sub-task columns.
+
+### First Round (2025)
+
+| Rank | Model | Elem. Recog. | Caption | Classification | Spatial Reasoning | Domain Reasoning | Association | Scheme Eval. | Decision Making | **Overall** |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | GPT-4o | 1.051 | 1.878 | 1.406 | 1.305 | 1.564 | 1.527 | 1.223 | 1.429 | **1.342** |
+| 2 | Qwen2.5-VL-72B-AWQ | 1.299 | 1.825 | 1.406 | 1.248 | 1.263 | 1.253 | 1.153 | 1.090 | **1.288** |
+| 3 | InternVL3-9B | 1.173 | 1.878 | 1.297 | 1.260 | 1.435 | 1.297 | 0.921 | 0.903 | **1.271** |
+| 4 | Qwen2.5-VL-7B | 1.101 | 1.628 | 1.089 | 0.865 | 1.110 | 1.069 | 0.802 | 1.054 | **1.050** |
+| 5 | InternVL3-14B | 0.931 | 1.580 | 1.177 | 0.793 | 0.998 | 1.098 | 0.709 | 0.917 | **0.980** |
+| 6 | Qwen2-VL-72B-AWQ | 1.010 | 1.367 | 1.125 | 0.746 | 0.967 | 1.114 | 0.670 | 0.632 | **0.963** |
+| 7 | Qwen2-VL-7B | 0.902 | 1.386 | 1.031 | 0.716 | 0.943 | 0.979 | 0.857 | 0.657 | **0.910** |
+| 8 | InternVL3-8B | 0.992 | 1.783 | 1.026 | 0.798 | 0.751 | 0.926 | 0.631 | 1.073 | **0.909** |
+| 9 | Qwen2.5-VL-3B | 0.862 | 1.554 | 0.953 | 0.691 | 0.870 | 0.970 | 0.697 | 0.936 | **0.876** |
+| 10 | GPT-4o-mini | 0.664 | 0.890 | 1.021 | 0.789 | 1.030 | 0.963 | 0.636 | 1.175 | **0.866** |
+| 11 | Qwen2-VL-2B | 0.744 | 0.925 | 0.948 | 0.500 | 0.656 | 0.926 | 0.537 | 0.792 | **0.731** |
+
+### Second Round (2026, agentic reasoning models)
+
+| Rank | Model | Elem. Recog. | Caption | Classification | Spatial Reasoning | Domain Reasoning | Association | Scheme Eval. | Decision Making | **Overall** |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Qwen3.6-Plus | 1.751 | 1.950 | 1.672 | 1.670 | 1.744 | 1.619 | 1.619 | 1.710 | **1.701** |
+| 2 | Gemini-2.5-Pro | 1.408 | 1.775 | 1.656 | 1.444 | 1.425 | 1.468 | 1.439 | 1.525 | **1.472** |
+| 3 | GPT-5.4 | 1.233 | 1.900 | 1.562 | 1.383 | 1.486 | 1.438 | 1.586 | 1.508 | **1.431** |
+| 4 | Kimi-K2.6 | 1.518 | 1.516 | 1.344 | 1.414 | 1.376 | 1.365 | 1.440 | 1.317 | **1.417** |
+| 5 | Claude-Opus-4.7 | 1.186 | 1.825 | 1.320 | 1.295 | 1.558 | 1.493 | 1.434 | 1.321 | **1.384** |
+| 6 | Qwen3.6-Flash | 1.318 | 1.636 | 1.297 | 1.353 | 1.476 | 1.351 | 1.046 | 1.441 | **1.353** |
+
+Per-model scored JSON files for Gemini-2.5-Pro, GPT-5.4, and Claude-Opus-4.7 are under `planbench-v/results/`.
 
 ## PlanBench Results (Text, Judge: gpt-4o-mini, 405 items)
 
