@@ -145,7 +145,7 @@ PlanBench/
 
 ## PlanBench-V Results (Vision, Judge: gpt-4o-mini, 300 items)
 
-| Rank | Model | Overall | 描述 | 类型 | 评价 | 决策 | 专业推理 | 关联 | 空间关系 | 要素 |
+| Rank | Model | Overall | Description | Type | Evaluation | Decision | Domain Reasoning | Association | Spatial Relation | Element |
 |------|-------|---------|------|------|------|------|----------|------|----------|------|
 | 🥇 | gemini-2.5-pro | **1.472/2 (73.6%)** | 1.775 | 1.656 | 1.439 | 1.525 | 1.425 | 1.468 | 1.444 | 1.408 |
 | 🥈 | gpt-5.4 | **1.431/2 (71.6%)** | 1.900 | 1.562 | 1.586 | 1.508 | 1.486 | 1.438 | 1.383 | 1.233 |
