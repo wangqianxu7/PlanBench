@@ -1,10 +1,15 @@
 # PlanBench
 
 [![Blog](https://img.shields.io/badge/Blog-PlanGPT-blue)](https://plangpt.github.io/)
-[![HuggingFace](https://img.shields.io/badge/🤗-Dataset-yellow)](https://huggingface.co/datasets/chichi56/PlanBench)
-[![GitHub](https://img.shields.io/badge/GitHub-PlanBench-black)](https://github.com/zhuchichi56/PlanBench)
+[![Hugging Face](https://img.shields.io/badge/🤗-Official_Test_Data-yellow)](https://huggingface.co/datasets/chichi56/PlanBench)
+[![GitHub](https://img.shields.io/badge/GitHub-Code-black)](https://github.com/zhuchichi56/PlanBench)
 
 **PlanBench** is a benchmark for evaluating LLMs on urban planning tasks, including both text-based QA and vision-based QA.
+
+## Official Links
+
+- **Code**: [github.com/zhuchichi56/PlanBench](https://github.com/zhuchichi56/PlanBench)
+- **Public test data**: [huggingface.co/datasets/chichi56/PlanBench](https://huggingface.co/datasets/chichi56/PlanBench)
 
 | Subset | Items | Type | Description |
 |--------|-------|------|-------------|
@@ -16,17 +21,17 @@
 
 ### Download
 
-- **GitHub** (this repo): `planbench/data/` and `planbench-v/data/` contain the question JSONs
-- **HuggingFace** (includes images): [chichi56/PlanBench](https://huggingface.co/datasets/chichi56/PlanBench)
+- **GitHub code repo**: [zhuchichi56/PlanBench](https://github.com/zhuchichi56/PlanBench) contains the benchmark scripts, JSON question files, and evaluation examples.
+- **Hugging Face dataset**: [chichi56/PlanBench](https://huggingface.co/datasets/chichi56/PlanBench) contains the public official test data and PlanBench-V images only.
 
 ```bash
-# Clone with data
+# Clone the public code repo
 git clone https://github.com/zhuchichi56/PlanBench.git
 cd PlanBench
 
-# Download images from HuggingFace (required for vision tasks)
-pip install huggingface_hub
-huggingface-cli download chichi56/PlanBench --repo-type dataset --local-dir .
+# Download public official test data and images from Hugging Face
+pip install -U huggingface_hub
+hf download chichi56/PlanBench --repo-type dataset --local-dir .
 ```
 
 ### Data Format
