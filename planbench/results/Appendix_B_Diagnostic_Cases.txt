@@ -1,0 +1,682 @@
+====================================================================================================
+APPENDIX B: Cross-Model Qualitative Analysis — Diagnostic Case Library (Sections 4.3–4.5)
+====================================================================================================
+
+This appendix presents verbatim model responses (chain-of-thought excerpts and final answers)
+across 20 selected items that substantiate the quantitative findings in Sections 4.3 (Knowledge
+Domain Asymmetries), 4.4 (Four Epistemic Diagnostics), and 4.5 (Cross-National Institutional
+Asymmetry). All examples are drawn from the English evaluation set (n=405). For readability, each
+item reports three representative models rather than the full panel; correctness flags reflect the
+automated evaluation result (1 = correct, 0 = incorrect).
+
+
+====================================================================================================
+SECTION 4.3 — Knowledge Domain Asymmetries
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+Example 1: Canonical Knowledge vs. Contextual Application (Apply Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Canonical Knowledge vs. Contextual Application
+Pillar: Principles of Urban Planning | Cognitive Level: Apply | Item Index: 165
+
+DESCRIPTION: Strong command of canonical historical frameworks; weaker models misjudge paradigm-bound statements about urban history.
+
+QUESTION:
+Which of the following statements about the development process of urban planning is correct: A. Ancient Roman cities were characterized by a grid system of roads, squares, and bathhouses. B. Medieval European urban development was based on functional zoning and spatial order. C. Renaissance period reactivated classical geometric aesthetics and axis symmetry planning techniques. D. After the Industrial Revolution, urban expansion showed disorder and pollution, which stimulated institutional reform and planning intervention
+
+GOLD ANSWER: A,C,D
+
+--- Claude (CORRECT) ---
+ANSWER: A,C,D
+CHAIN-OF-THOUGHT:
+  Let me analyze each statement about the development process of urban planning: **Statement A: Ancient Roman cities were characterized by a grid system of roads, squares, and bathhouses.** - This is TRUE. Roman cities (like Pompeii, Rome itself, and colonial cities) did feature: - Grid systems (the cardo and decumanus - main north-south and east-west roads) - Public squares (forums) - Bathhouses (thermae) as important public facilities - This is a well-documented characteristic of Roman urban planning. **Statement B: Medieval European urban development was based on functional zoning and spatial order.** - This is PARTIALLY TRUE but MISLEADING. Medieval cities were actually characterized by: - Organic, irregular street patterns (not planned zoning) - Mixed-use development (residential, commercial, religious all mixed together) - Lack of systematic functional zoning - Development driven by [...]
+
+--- QwQ-32B (INCORRECT) ---
+ANSWER: A,C,D
+CHAIN-OF-THOUGHT:
+  Okay, let's tackle this question step by step. The question is about identifying the correct statement regarding the development process of urban planning. The options are A, B, C, and D. I need to go through each one and see which is accurate based on what I know about urban planning history. Starting with option A: "Ancient Roman cities were characterized by a grid system of roads, squares, and bathhouses." Hmm, I remember that Roman cities like Pompeii or Rome itself did use a grid system, especially the cardo and decumanus roads which formed the main axes. They also had public spaces like forums and bathhouses were indeed a big part of Roman urban life. So A seems correct, but I should check the others to be sure. Option B: "Medieval European urban development was based on functional zoning and spatial order." Wait, medieval cities, like those in Europe after the fall of the Roman [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: A,C,D
+CHAIN-OF-THOUGHT:
+  To evaluate the statements about the development process of urban planning, I will analyze each option based on historical context and urban planning principles. A. Ancient Roman cities were indeed characterized by a grid system, particularly in military camps and some urban areas. They featured roads, public squares (fora), and bathhouses, which were central to Roman social life. This statement is correct. B. Medieval European urban development was not primarily based on functional zoning as we understand it today. Instead, cities often grew organically around a central market or church, with less emphasis on spatial order and more on the needs of the community. This statement is incorrect. C. The Renaissance period did indeed reactivate classical geometric aesthetics and planning techniques, emphasizing symmetry, proportion, and axial planning. This statement is correct. D. After the [...]
+
+ANALYSIS:
+  Models correct: Claude
+  Models incorrect: QwQ-32B, GPT-4o-mini
+
+
+----------------------------------------------------------------------------------------------------
+Example 2: Cross-Disciplinary Integration Strength (Apply Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Cross-Disciplinary Integration Strength
+Pillar: Cross-Disciplinary Integration | Cognitive Level: Apply | Item Index: 196
+
+DESCRIPTION: Synthesising growth-pole and externality theory across economics and spatial planning — the pillar where models most consistently approximate competence.
+
+QUESTION:
+The planning department of Y city referred to the "growth pole theory" and "industry externality theory" when formulating future industrial spatial layout strategies. Which of the following statements about the relationship between growth poles and urban economic spatial development is correct? A. Growth poles often have the ability to cluster high-tech industries and innovative resources. B. The development process of growth poles can strengthen spatial inequality. C. External spillover effects can help drive the development of surrounding inefficient areas. D. The theory of growth poles suggests that urban development should pursue a balanced spatial layout. E. Urban growth poles can be [...]
+
+GOLD ANSWER: A,B,C,E
+
+--- Claude (CORRECT) ---
+ANSWER: A,B,C,E
+CHAIN-OF-THOUGHT:
+  Let me analyze each statement about growth pole theory and its relationship to urban economic spatial development: **Statement A: Growth poles often have the ability to cluster high-tech industries and innovative resources.** - Growth pole theory suggests that certain locations become centers of economic activity and innovation - These poles do tend to attract and concentrate high-tech industries and innovative resources due to agglomeration economies - This is generally TRUE **Statement B: The development process of growth poles can strengthen spatial inequality.** - Growth poles concentrate development in specific locations, which can create disparities between pole areas and peripheral areas - Resources, investment, and talent flow to growth poles, potentially leaving other areas underdeveloped - This is TRUE - it's actually a recognized criticism of growth pole theory **Statement C: [...]
+
+--- QwQ-32B (CORRECT) ---
+ANSWER: A,B,C,E
+CHAIN-OF-THOUGHT:
+  Okay, let's tackle this question. The user is asking about the relationship between growth poles and urban economic spatial development based on the given theories. The options are A to E, and I need to pick the correct ones. First, I should recall what growth pole theory and industry externality theory are. Growth pole theory, developed by Francois Perroux, suggests that certain economic activities or sectors can act as catalysts for regional economic growth. These growth poles attract investment, create jobs, and stimulate related industries. They often start in a specific location and then spread out. Industry externality theory relates to the external effects that industries have on each other and the surrounding areas. Positive externalities might include knowledge spillovers, infrastructure development, or a skilled labor pool that benefits nearby businesses. Negative [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: A,B,C,E
+CHAIN-OF-THOUGHT:
+  To analyze the statements regarding the relationship between growth poles and urban economic spatial development, we need to consider the implications of growth pole theory and industry externality theory. A. Growth poles often have the ability to cluster high-tech industries and innovative resources. - This statement is generally true. Growth poles are designed to concentrate resources, including high-tech industries, which can foster innovation and economic development. B. The development process of growth poles can strengthen spatial inequality. - This statement is also true. Growth poles can lead to uneven development, where areas around the growth pole may benefit significantly while others lag behind, thus increasing spatial inequality. C. External spillover effects can help drive the development of surrounding inefficient areas. - This statement is somewhat misleading. While [...]
+
+ANALYSIS:
+  Models correct: Claude, QwQ-32B
+  Models incorrect: GPT-4o-mini
+
+
+----------------------------------------------------------------------------------------------------
+Example 3: Practice-Pillar Resistance (Apply Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Practice-Pillar Resistance
+Pillar: Planning Practice | Cognitive Level: Apply | Item Index: 194
+
+DESCRIPTION: Big-data application in governance practice; only Claude separates genuine practice tools from plausible distractors.
+
+QUESTION:
+What are the main aspects of the application of big data in urban governance and planning practice? A. Refined population statistics and migration trend judgment B. Intelligent review and output of construction drawings C. Real time visualization of urban operation spatiotemporal situation D. Satellite remote sensing classification of land use types E. Social platform text mining for planning public opinions
+
+GOLD ANSWER: A,C,E
+
+--- Claude (CORRECT) ---
+ANSWER: A,C,E
+CHAIN-OF-THOUGHT:
+  Let me analyze each option to determine which aspects represent the main applications of big data in urban governance and planning practice. A. Refined population statistics and migration trend judgment - This is a legitimate application of big data in urban planning - Big data from mobile phone signals, social media, census data can track population movements - This helps with infrastructure planning, resource allocation, and understanding urban dynamics - This IS a main aspect of big data application in urban governance B. Intelligent review and output of construction drawings - While AI and automation can assist in drawing review, this is more about CAD/BIM technology - This is not primarily a "big data" application - it's more about AI/machine learning on specific documents - This is less about analyzing large datasets and more about automated processing - This is NOT a main aspect [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: A,C,E
+CHAIN-OF-THOUGHT:
+  In considering the application of big data in urban governance and planning practice, it's essential to evaluate how each option contributes to the overall effectiveness and efficiency of urban management. A. Refined population statistics and migration trend judgment: This aspect is crucial as it allows urban planners to understand demographic changes, which can inform resource allocation, infrastructure development, and service provision. B. Intelligent review and output of construction drawings: While this is important for ensuring compliance and efficiency in construction processes, it is more of a technical application rather than a broad governance or planning strategy. C. Real-time visualization of urban operation spatiotemporal situation: This is highly relevant as it enables planners and decision-makers to monitor urban dynamics in real-time, facilitating timely interventions [...]
+
+--- DeepSeek-R1 (INCORRECT) ---
+ANSWER: A,C,E
+CHAIN-OF-THOUGHT:
+  Alright, so I need to figure out the main aspects of how big data is applied in urban governance and planning. Let me start by breaking down each option provided and see how they fit into the broader context of big data applications. First, option A is "Refined population statistics and migration trend judgment." Big data, especially from sources like censuses, surveys, and social media, can help refine population statistics. Migration trends can be analyzed using data on where people move, which helps in planning infrastructure and services. So, this seems like a key aspect. Next, option B is "Intelligent review and output of construction drawings." Construction drawings are detailed blueprints, and while big data can support this through 3D modeling and simulations, the main application here might be more about efficiency and accuracy in the planning phase rather than the drawings [...]
+
+ANALYSIS:
+  Models correct: Claude
+  Models incorrect: GPT-4o-mini, DeepSeek-R1
+
+
+====================================================================================================
+SECTION 4.4 — Four Epistemic Diagnostics
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+Example 4: Regulatory Hallucination (Remember Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Regulatory Hallucination
+Pillar: Planning Governance | Cognitive Level: Remember | Item Index: 6
+
+DESCRIPTION: Fabrication of institutional structure under China's "dual regulation integration" framework; weaker models cannot anchor the jurisdiction-specific hierarchy.
+
+QUESTION:
+The current urban and Rural Land Use Planningsystem in China has been gradually established under the framework of the Urban and Rural Land Use PlanningLaw and its supporting systems. Based on different spatial levels and functional positioning, it can be roughly divided into multiple levels such as national, provincial, city county, township, etc. According to the "dual regulation integration" framework established in the 2008 Urban and Rural Land Use PlanningLaw, the urban and Rural Land Use Planningsystem mainly consists of regulatory detailed planning, constructive detailed planning, and macro guiding planning represented by _______ and _______, which jointly construct a "strategy [...]
+
+GOLD ANSWER: Overall planning and zoning planning analysis
+
+--- Claude (CORRECT) ---
+ANSWER: Overall planning and zoning planning analysis
+CHAIN-OF-THOUGHT:
+  This question is asking about the components of China's urban and rural land use planning system, specifically what two types of macro guiding planning are represented in the "strategy control implementation" trinity planning system. Let me break down what we know: 1. The system follows a "dual regulation integration" framework from the 2008 Urban and Rural Land Use Planning Law 2. The system consists of: - Regulatory detailed planning - Constructive detailed planning - Macro guiding planning (represented by two types that need to be filled in) 3. These three components form a "strategy control implementation" trinity planning system In China's urban and rural planning system, the macro-level guiding plans typically include: - National Land Use Plan (国家土地利用总体规划) - Regional/Provincial Land Use Plan (区域/省级土地利用总体规划) - City/County Land Use Plan (市县级土地利用总体规划) However, the question [...]
+
+--- QwQ-32B (INCORRECT) ---
+ANSWER: Overall planning and zoning planning analysis
+CHAIN-OF-THOUGHT:
+  The two blanks in the question are filled with **"national urban and rural planning"** and **"provincial urban and rural planning"**. Under China's "dual regulation integration" framework established by the 2008 Urban and Rural Land Use Planning Law, the trinity planning system combines three tiers: 1. **Regulatory detailed planning** (enforcing rules and standards at local implementation levels), 2. **Constructive detailed planning** (guiding specific land-use designs and projects), and 3. **Macro guiding planning**, represented by **national urban and rural planning** (strategic, nationwide policies) and **provincial urban and rural planning** (regional implementation of national strategies). These higher-level plans set overarching goals, spatial frameworks, and functional zoning, while lower-level plans (city/county, township) operationalize them. This structure ensures alignment [...]
+
+--- DeepSeek-R1 (INCORRECT) ---
+ANSWER: Overall planning and zoning planning analysis
+CHAIN-OF-THOUGHT:
+  Alright, so I'm trying to figure out the answer to this question about China's urban and rural land use planning system. The question is asking about the components of the planning system based on the 2008 Urban and Rural Land Use Planning Law, specifically the "dual regulation integration" framework. The system is said to consist of regulatory detailed planning, constructive detailed planning, and macro guiding planning, represented by two blank spaces. The task is to fill in those blanks. First, I need to understand the structure of the planning system. The question mentions that it's divided into multiple levels like national, provincial, city county, and township. The "dual regulation integration" framework suggests that there are two main regulatory systems working together. I recall that in China, the national level is often referred to as the "Strategic Plan." This plan sets the [...]
+
+ANALYSIS:
+  Models correct: Claude
+  Models incorrect: QwQ-32B, DeepSeek-R1
+
+
+----------------------------------------------------------------------------------------------------
+Example 5: Regulatory Hallucination (Apply Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Regulatory Hallucination
+Pillar: Planning Governance | Cognitive Level: Apply | Item Index: 215
+
+DESCRIPTION: Scope of statutory technical-standard specifications; weaker models blend in non-existent regulatory categories.
+
+QUESTION:
+When formulating technical standards for urban and rural planning, planning departments usually need to standardize and set multiple contents. Which of the following aspects are usually included in the scope of urban and Rural Land Use Planningtechnical standards and specifications? (Multiple choice) A. Map legend and symbol system B. Text expression and format of planning report C. Construction technology and technical indicators of construction projects D. Format and methods of data collection and processing E. Legal procedures and public participation process of planning approval
+
+GOLD ANSWER: A,B,D
+
+--- Claude (CORRECT) ---
+ANSWER: A,B,D
+CHAIN-OF-THOUGHT:
+  Let me analyze each option to determine which aspects are typically included in the scope of urban and rural land use planning technical standards and specifications. A. Map legend and symbol system - This is definitely a technical standard for planning. Maps are fundamental tools in urban planning, and standardized legends and symbols ensure consistency, clarity, and professional communication across different planning documents and jurisdictions. This should be included. B. Text expression and format of planning report - This relates to how planning documents are presented and formatted. Technical standards do include guidelines for report structure, terminology, and presentation formats to ensure consistency and clarity. This should be included. C. Construction technology and technical indicators of construction projects - This goes beyond land use planning standards. While [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: A,B,D
+CHAIN-OF-THOUGHT:
+  When formulating technical standards for urban and rural planning, it is essential to consider various aspects that ensure consistency, clarity, and effectiveness in the planning process. A. Map legend and symbol system: This is crucial for ensuring that maps used in planning are easily interpretable and standardized across different documents and projects. B. Text expression and format of planning report: Standardizing the format and expression of planning reports is important for clarity and uniformity, making it easier for stakeholders to understand the documents. C. Construction technology and technical indicators of construction projects: While this is important for the execution of projects, it is more related to the implementation phase rather than the planning phase itself. Therefore, it may not be a primary focus of land use planning standards. D. Format and methods of data [...]
+
+--- DeepSeek-R1 (INCORRECT) ---
+ANSWER: A,B,D
+CHAIN-OF-THOUGHT:
+  Alright, so I'm trying to figure out which aspects are included in the technical standards and specifications for urban and rural land use planning. The question gives me five options: A, B, C, D, and E. I need to determine which of these are typically part of the planning process. First, I'll break down each option to understand what they represent. **Option A: Map legend and symbol system** I know that maps are essential in planning, especially for visual representation. A legend or symbol system helps explain the symbols used on maps, which is crucial for clear communication. So, it makes sense that this would be part of the technical standards. **Option B: Text expression and format of planning report** A planning report is a written document that outlines the plan. The text expression would involve how the report is written, and the format would refer to how it's structured and [...]
+
+ANALYSIS:
+  Models correct: Claude
+  Models incorrect: GPT-4o-mini, DeepSeek-R1
+
+
+----------------------------------------------------------------------------------------------------
+Example 6: Regulatory Hallucination (Apply Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Regulatory Hallucination
+Pillar: Planning Governance | Cognitive Level: Apply | Item Index: 219
+
+DESCRIPTION: Correcting common misconceptions about approval/adjustment systems; GPT-4o-mini confidently endorses a fabricated rule.
+
+QUESTION:
+The management of urban and Rural Land Use Planninginvolves a large number of approval, supervision, and adjustment systems. Which of the following statements correctly correct common misconceptions in urban and Rural Land Use Planningand management? A. Once the control regulations are approved, they have legal effect and cannot be partially modified. B. Project construction can apply for permission as long as it meets the nature of the land use and does not need to comply with the control regulations. C. Planning adjustments should prioritize public interests and undergo public participation and technical evaluation in accordance with the law. D. In the "one book, three certificates", the [...]
+
+GOLD ANSWER: C,D
+
+--- Claude (CORRECT) ---
+ANSWER: C,D
+CHAIN-OF-THOUGHT:
+  Let me analyze each statement carefully from the perspective of urban and rural land use planning and management: **Statement A: "Once the control regulations are approved, they have legal effect and cannot be partially modified."** - This is INCORRECT. Control regulations (detailed planning regulations) can be modified when circumstances change, through proper legal procedures. They are not immutable once approved. Modifications require due process but are possible. **Statement B: "Project construction can apply for permission as long as it meets the nature of the land use and does not need to comply with the control regulations."** - This is INCORRECT. Meeting the land use nature is necessary but NOT sufficient. Projects must also comply with control regulations (detailed planning requirements), which include building height, density, setbacks, etc. Both conditions must be met. [...]
+
+--- DeepSeek-R1 (CORRECT) ---
+ANSWER: C,D
+CHAIN-OF-THOUGHT:
+  Alright, let's tackle this question about urban and rural land use planning. I'm a bit new to this topic, so I'll need to break it down step by step. First, the question presents five statements (A to E) and asks which correctly address common misconceptions in urban and rural land use planning and management. My goal is to analyze each statement, understand the concepts involved, and determine which ones are correct. Starting with Statement A: "Once the control regulations are approved, they have legal effect and cannot be partially modified." I remember that land use regulations are often subject to change. Usually, once a plan is adopted, it's binding, but there might be provisions for updating or revising them. Partial modification might require new approvals, so I'm not sure if A is entirely correct. Moving to Statement B: "Project construction can apply for permission as long as [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: C,D
+CHAIN-OF-THOUGHT:
+  To address the question, we need to analyze each statement regarding urban and rural land use planning and management to identify which one correctly corrects common misconceptions. A. This statement suggests that once control regulations are approved, they cannot be modified. This is a misconception because regulations can often be amended or adjusted through proper legal processes, especially if circumstances change or if there is a need for improvement. B. This statement implies that as long as a project meets the nature of land use, it does not need to comply with control regulations. This is misleading because compliance with control regulations is typically a prerequisite for obtaining permission for project construction, regardless of land use nature. C. This statement emphasizes that planning adjustments should prioritize public interests and involve public participation and [...]
+
+ANALYSIS:
+  Models correct: Claude, DeepSeek-R1
+  Models incorrect: GPT-4o-mini
+
+
+----------------------------------------------------------------------------------------------------
+Example 7: Regulatory Hallucination (Evaluate Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Regulatory Hallucination
+Pillar: Principles of Urban Planning | Cognitive Level: Evaluate | Item Index: 243
+
+DESCRIPTION: The market-town "no planning guidance" claim; stronger models invoke township-planning and rural-revitalization policy, weaker models hedge to "True".
+
+QUESTION:
+According to the general laws of urban development, a town is a transitional form between traditional rural settlements and cities, usually developed in transportation nodes, resource distribution centers, or industrial agglomeration areas within rural areas. Therefore, the development of market towns usually reflects a bottom-up evolutionary path, and their form does not have planning guidance. Is the above statement correct? (True/False)
+
+GOLD ANSWER: False
+
+--- Claude (CORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  Let me analyze this statement carefully by breaking it down into its components: 1. **Definition of towns**: The statement correctly describes towns as transitional forms between rural settlements and cities, typically developing at transportation nodes, resource distribution centers, or industrial agglomeration areas. This is generally accurate. 2. **Development path claim**: The statement asserts that market town development "usually reflects a bottom-up evolutionary path." - This is partially true - many towns do develop organically from market activities and local economic needs - However, this is not universally true; many towns have been planned or influenced by top-down government initiatives 3. **Planning guidance claim**: The statement concludes that "their form does not have planning guidance." - This is problematic and largely incorrect - Modern urban planning practice shows [...]
+
+--- GPT-4o-mini (CORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  The statement presents a perspective on the development of market towns, emphasizing their role as transitional forms between rural settlements and cities. It highlights that these towns often emerge in locations that serve as transportation nodes, resource distribution centers, or industrial areas, which is generally accurate. However, the assertion that their development reflects a "bottom-up evolutionary path" and lacks planning guidance is more nuanced. While many market towns may develop organically due to economic and social factors, it is not universally true that they lack any form of planning. In many cases, local governments or planning authorities may intervene to guide development, especially as towns grow and face challenges related to infrastructure, zoning, and community needs. Thus, while the statement captures some truths about the organic nature of market town [...]
+
+--- DeepSeek-R1 (INCORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  Alright, so I'm trying to figure out whether the statement about market towns being a transitional form between traditional rural settlements and cities is correct. Let me break this down step by step. First, I know that urban planning often refers to how towns evolve from rural areas. Market towns, as mentioned, are supposed to be in transportation hubs, resource distribution centers, or industrial areas. That makes sense because these places are strategic for trade and industry, which are key drivers of urban growth. The statement says that market towns follow a bottom-up approach, meaning they develop from the ground up without much top-down planning. I'm not entirely sure about this. I remember that many cities have clear planning processes, especially in well-established urban areas. Maybe market towns are different because they're more about economic activities that naturally draw [...]
+
+ANALYSIS:
+  Models correct: Claude, GPT-4o-mini
+  Models incorrect: DeepSeek-R1
+
+
+----------------------------------------------------------------------------------------------------
+Example 8: Conceptual Conflation (Evaluate Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Conceptual Conflation
+Pillar: Principles of Urban Planning | Cognitive Level: Evaluate | Item Index: 253
+
+DESCRIPTION: Blurring accessibility and compactness as if interchangeable urban-form objectives.
+
+QUESTION:
+The accessibility of urban space is closely related to the efficiency of resource allocation. Good accessibility can promote work life balance and functional integration, reduce unnecessary long-distance commuting, and improve urban operational efficiency. And compactness emphasizes increasing land use intensity and development density within a limited space, avoiding disorderly urban sprawl. Currently, most cities are promoting a "compact+accessible" development model, which tends to concentrate high-density development along rail transit lines to maximize land value. Therefore, the higher the accessibility of an area, the higher its development intensity and building density will [...]
+
+GOLD ANSWER: False
+
+--- Claude (CORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  Let me carefully analyze this statement about the relationship between accessibility, development intensity, and building density. The statement claims: "the higher the accessibility of an area, the higher its development intensity and building density will inevitably be." Key considerations: 1. **Theoretical relationship**: The statement presents a logical chain - accessibility promotes compact development, which increases density. This is theoretically sound in urban planning principles. 2. **"Inevitably" is the critical word**: The statement uses "inevitably," which means it must always happen without exception. This is a strong absolute claim. 3. **Counterexamples and nuances**: - High accessibility doesn't automatically guarantee high development density. Policy choices matter significantly. - A city could have high accessibility but choose to maintain lower densities for quality [...]
+
+--- GPT-4o-mini (CORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  The statement suggests a direct correlation between accessibility and development intensity, implying that as an area becomes more accessible, it will naturally lead to higher development density and land use intensity. This relationship is often observed in urban planning, where areas with better transportation links, such as rail transit lines, tend to attract more development due to increased land value and demand for housing and commercial spaces. However, while this correlation is generally true, it is not an absolute rule. Several factors can influence this relationship, including local zoning laws, community resistance to high-density development, economic conditions, and the overall urban planning strategy of a city. For instance, a highly accessible area may not see increased density if there are strict zoning regulations that limit building heights or if the community opposes [...]
+
+--- DeepSeek-R1 (INCORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  Alright, so I'm trying to figure out whether the statement about urban spaces being more accessible leading to higher development intensity and building density is true or false. Let me break this down step by step. First, the statement mentions that higher accessibility promotes work-life balance and functional integration. I know that accessible areas mean people don't have to travel long distances, which can reduce stress and allow people to spend more time where they need it, like near family or friends. This makes sense because accessibility is about making life easier and more efficient. Next, the statement talks about compactness and land use intensity. Compact cities are designed to use land more efficiently, which means higher development density. The idea is to avoid sprawl, where cities grow outward in an uncontrolled way, leading to disorder and less efficient use of space. [...]
+
+ANALYSIS:
+  Models correct: Claude, GPT-4o-mini
+  Models incorrect: DeepSeek-R1
+
+
+----------------------------------------------------------------------------------------------------
+Example 9: Conceptual Conflation (Evaluate Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Conceptual Conflation
+Pillar: Cross-Disciplinary Integration | Cognitive Level: Evaluate | Item Index: 270
+
+DESCRIPTION: Misreading TOD's core-to-periphery logic as a "far-to-near" gradient — conflating distinct development-sequencing concepts.
+
+QUESTION:
+In the development of the new district, M city has set up a development axis with rail transit as the core, formulated a "station guided construction sequence", and proposed to prioritize the construction of transportation facilities and promote the development of surrounding land from far to near, in order to form a reasonable gradient growth. The policy aims to promote urban development guided by rail transit through the TOD model. Therefore, this model embodies the typical practice path of "traffic first, land second" in TOD development, and is currently one of the internationally recognized principles for TOD implementation. Is this judgment correct? (True/False)
+
+GOLD ANSWER: False
+
+--- Claude (CORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  Let me carefully analyze this statement about TOD (Transit-Oriented Development) and the "traffic first, land second" principle. First, let me understand what the statement claims: 1. M city is using rail transit as the core of development 2. They follow a "station guided construction sequence" 3. They prioritize transportation facilities first, then develop surrounding land 4. This represents the "traffic first, land second" approach 5. The statement claims this is a "typical practice path" and "internationally recognized principle" for TOD implementation Now, let me examine the actual principles of TOD: The traditional and internationally recognized TOD model actually emphasizes: - **Mixed-use development** around transit stations - **Land use integration** with transportation - **Simultaneous or coordinated development** of transit and land use The actual TOD principle is more [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  The statement describes a development strategy that aligns with the principles of Transit-Oriented Development (TOD). TOD emphasizes the integration of land use and transportation, prioritizing access to public transit to create vibrant, walkable communities. The approach of establishing a development axis centered around rail transit and implementing a "station guided construction sequence" reflects the core tenets of TOD, which advocate for prioritizing transportation infrastructure to stimulate surrounding land development. The phrase "traffic first, land second" suggests that the transportation facilities are being prioritized in the planning process, which is consistent with the TOD model. This model indeed promotes urban development that is closely linked to transit accessibility, aiming to reduce reliance on cars and enhance the quality of urban life. Given that the statement [...]
+
+--- Llama-3-8B (INCORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  The question is asking whether the development strategy of M city, which prioritizes the construction of transportation facilities and promotes the development of surrounding land from far to near, is a typical example of the "traffic first, land second" principle in Transit-Oriented Development (TOD) model. To evaluate this, I'll break down the key elements of the strategy: 1. Prioritizing the construction of transportation facilities: This aligns with the "traffic first" aspect of the principle, as it focuses on building a robust transportation network as the foundation for development. 2. Promoting development of surrounding land from far to near: This suggests a gradual and phased approach to development, which is consistent with the "land second" aspect of the principle. By prioritizing the development of land closest to the transportation hub, the city is creating a natural [...]
+
+ANALYSIS:
+  Models correct: Claude
+  Models incorrect: GPT-4o-mini, Llama-3-8B
+
+
+----------------------------------------------------------------------------------------------------
+Example 10: Conceptual Conflation (Apply Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Conceptual Conflation
+Pillar: Cross-Disciplinary Integration | Cognitive Level: Apply | Item Index: 195
+
+DESCRIPTION: Distinguishing genuinely deployed AI/automation tools from speculative ones; weaker models conflate marketed capability with established practice.
+
+QUESTION:
+Which types of AI and automation tools are currently widely used in urban planning and architectural design? A. Space generation algorithm and automatic layout system B. Image recognition based old building recognition tool C. Machine learning based land suitability analysis model D. Deep learning driven urban policy text automatic interpreter E. BIM based 3D simulation platform for water and electricity pipeline layout
+
+GOLD ANSWER: A. B, C, E
+
+--- Claude (CORRECT) ---
+ANSWER: A. B, C, E
+CHAIN-OF-THOUGHT:
+  Let me analyze each option based on current real-world applications in urban planning and architectural design: A. Space generation algorithm and automatic layout system - These are emerging tools but not yet "widely used" in mainstream practice - Generative design is growing but still relatively niche - Not yet standard practice across the industry B. Image recognition based old building recognition tool - This is a practical application of computer vision - Useful for heritage conservation and urban surveys - Has real implementations in some cities for building inventory and condition assessment - Moderately adopted but not universally widespread C. Machine learning based land suitability analysis model - This is well-established and widely used - GIS combined with ML for analyzing zoning, environmental factors, accessibility - Common in planning departments for site selection and [...]
+
+--- GPT-4o-mini (CORRECT) ---
+ANSWER: A. B, C, E
+CHAIN-OF-THOUGHT:
+  In urban planning and architectural design, various AI and automation tools are utilized to enhance efficiency, accuracy, and decision-making. A. Space generation algorithms and automatic layout systems are commonly used in urban design to optimize land use and create efficient layouts for buildings and public spaces. These tools help planners visualize different configurations and assess their feasibility. B. Image recognition-based tools for old building recognition are increasingly important for heritage conservation and urban renewal projects. They can help identify and catalog historical structures, which is essential for maintaining cultural heritage. C. Machine learning-based land suitability analysis models are widely used to evaluate the best uses for land based on various factors such as zoning, environmental impact, and infrastructure availability. These models can analyze [...]
+
+--- QwQ-32B (INCORRECT) ---
+ANSWER: A. B, C, E
+CHAIN-OF-THOUGHT:
+  Okay, so I need to figure out which of the given options are currently widely used AI and automation tools in urban planning and architectural design. Let me start by going through each option one by one. First, option A: Space generation algorithm and automatic layout system. I remember that in architectural design, there are tools like generative design software that use algorithms to create multiple layout options. For example, Autodesk's tools might use such algorithms. So this seems plausible. But are these widely used? Maybe in some advanced firms, but I'm not sure how widespread they are yet. Option B: Image recognition based old building recognition tool. Urban planning often involves analyzing existing structures. Using image recognition, like through satellite or drone images, to identify old buildings could be useful for preservation or renovation projects. Tools like Google [...]
+
+ANALYSIS:
+  Models correct: Claude, GPT-4o-mini
+  Models incorrect: QwQ-32B
+
+
+----------------------------------------------------------------------------------------------------
+Example 11: Wickedness Paralysis (Apply Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Wickedness Paralysis
+Pillar: Planning Practice | Cognitive Level: Apply | Item Index: 228
+
+DESCRIPTION: Strategic-goal setting under competing sustainability values; weaker models enumerate factors but fail to commit to the correct value set.
+
+QUESTION:
+When formulating strategic goals for urban planning, which of the following factors should be considered to ensure that the goal setting has long-term sustainability and diversified considerations? A. Economic growth goals B. Social equity and welfare C. Environmental protection and resource sustainability D. Expansion of transportation infrastructure E. Inheritance and development of urban culture
+
+GOLD ANSWER: A,B,C,E
+
+--- Claude (CORRECT) ---
+ANSWER: A,B,C,E
+CHAIN-OF-THOUGHT:
+  Let me analyze this question about strategic goal-setting in urban planning from a sustainability and comprehensive planning perspective. The question asks which factors should be considered for long-term sustainability and diversified considerations. Let me evaluate each option: A. Economic growth goals - Important for urban viability and development - However, economic growth alone is not sustainable if it ignores other factors - Should be balanced with other considerations B. Social equity and welfare - Critical for sustainable cities - Ensures quality of life for all residents - Addresses housing, healthcare, education, employment - Long-term stability depends on social cohesion C. Environmental protection and resource sustainability - Essential for long-term sustainability - Addresses climate change, pollution, resource depletion - Protects natural systems that support urban life - [...]
+
+--- QwQ-32B (CORRECT) ---
+ANSWER: A,B,C,E
+CHAIN-OF-THOUGHT:
+  The factors that should be considered to ensure long-term sustainability and diversified urban planning goals are **A. Economic growth goals**, **B. Social equity and welfare**, **C. Environmental protection and resource sustainability**, and **E. Inheritance and development of urban culture**. **Key reasoning:** 1. **Economic growth (A)** is essential for funding infrastructure, services, and innovation but must be balanced with other priorities to avoid short-term exploitation. 2. **Social equity and welfare (B)** ensures inclusive access to resources, housing, and opportunities, fostering cohesion and reducing inequality. 3. **Environmental protection (C)** addresses climate resilience, resource management, and ecological balance, critical for long-term survival. 4. **Urban culture (E)** preserves heritage, enhances community identity, and supports cultural vibrancy, which enriches [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: A,B,C,E
+CHAIN-OF-THOUGHT:
+  When formulating strategic goals for urban planning, it is essential to consider a holistic approach that encompasses various dimensions of sustainability. Each of the factors listed plays a crucial role in ensuring that urban development is balanced and meets the needs of current and future generations. A. Economic growth goals are important as they drive job creation and improve living standards. However, if pursued without regard for social and environmental factors, they can lead to inequality and resource depletion. B. Social equity and welfare are critical to ensure that all community members benefit from urban development. This includes access to services, housing, and opportunities, which are essential for a cohesive society. C. Environmental protection and resource sustainability are vital for maintaining the health of ecosystems and ensuring that natural resources are [...]
+
+ANALYSIS:
+  Models correct: Claude, QwQ-32B
+  Models incorrect: GPT-4o-mini
+
+
+----------------------------------------------------------------------------------------------------
+Example 12: Wickedness Paralysis (Evaluate Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Wickedness Paralysis
+Pillar: Planning Practice | Cognitive Level: Evaluate | Item Index: 259
+
+DESCRIPTION: Whether implementation delays alone justify leaving plan assumptions unrevised; weaker models avoid the normative judgement that the plan must be questioned.
+
+QUESTION:
+A city completes its first five-year review of a comprehensive plan and finds that most key infrastructure projects are behind schedule. The planning bureau concludes that the plan itself remains valid, and that delays reflect implementation inefficiencies rather than any need to revise the plan's assumptions or priorities. Is the above statement correct? (True/False)
+
+GOLD ANSWER: False
+
+--- Claude (CORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  This is a nuanced urban planning question that requires careful consideration of how comprehensive plans work and what delays actually signify. Let me think through the key issues: 1. **What comprehensive plans are**: Comprehensive plans are long-term strategic documents that establish a community's vision, goals, and policies. They typically span 20-30 years with periodic reviews (often 5 years). 2. **The relationship between plan validity and implementation**: A plan's validity depends on whether its underlying assumptions, priorities, and goals remain sound. Implementation delays don't automatically invalidate a plan, BUT they can signal problems that warrant examination. 3. **What delays might indicate**: - Pure implementation inefficiency (staffing, budgeting, coordination issues) - Changed circumstances (economic conditions, population trends, technology shifts) - Unrealistic [...]
+
+--- DeepSeek-R1 (CORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  Alright, so I'm trying to figure out whether the statement made by the planning bureau is correct. The city has completed its first five-year review of a comprehensive plan, and most key infrastructure projects are behind schedule. The planning bureau says the plan is still valid, and the delays are due to implementation inefficiencies, not needing to change the plan's assumptions or priorities. I need to determine if this is true or false. First, I should understand what a comprehensive plan typically includes. Comprehensive plans usually outline long-term goals, policies, and strategies for a city's development. They often include timelines and priorities for various projects. If most infrastructure projects are behind schedule after five years, it could indicate several things. I think about why projects might be delayed. Delays can be due to various factors: lack of funding, [...]
+
+--- QwQ-32B (INCORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  Repeated implementation failures often indicate flaws in planning assumptions or priority misalignment. Evaluation should feed into adaptive revisions, not just procedural audits.
+
+ANALYSIS:
+  Models correct: Claude, DeepSeek-R1
+  Models incorrect: QwQ-32B
+
+
+----------------------------------------------------------------------------------------------------
+Example 13: Wickedness Paralysis (Evaluate Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Wickedness Paralysis
+Pillar: Planning Governance | Cognitive Level: Evaluate | Item Index: 311
+
+DESCRIPTION: Whether year-long participation legitimises late-stage indicator changes; weaker models defer to process rather than committing on procedural legitimacy.
+
+QUESTION:
+In the process of renovating a large urban village in M city, the government carried out a public participation process that lasted for more than a year, including symposiums, community research, conflict of interest coordination, and resident representatives attending the entire review meeting. However, during the review stage of the Municipal Planning Commission, some important planning indicators such as plot ratio and public service allocation ratio were still not adjusted, and some resident representatives expressed dissatisfaction with the "ineffective participation". Therefore, this case indicates that the form of public participation is not perfect enough and violates the legal [...]
+
+GOLD ANSWER: False
+
+--- Claude (CORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  Let me analyze this case carefully from an urban planning and public participation perspective. The question presents a scenario where: 1. Extensive public participation occurred (over a year, multiple methods) 2. Residents participated throughout the process 3. However, key planning indicators weren't adjusted during the final review stage 4. Residents felt their participation was "ineffective" 5. The question asks if this indicates the form of participation was imperfect and violated legal procedures Key considerations: **What the statement assumes:** - That ineffective outcomes = procedural violation - That public participation must result in specific changes to be valid - That the form/process itself was flawed **What actually matters legally and professionally:** 1. **Procedural vs. Substantive Outcomes**: Public participation procedures are about ensuring voices are heard and [...]
+
+--- GPT-4o-mini (CORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  To evaluate the judgment regarding the public participation process in the renovation of the urban village in M city, we need to consider several factors. 1. **Public Participation Process**: The government conducted a year-long public participation process, which included symposiums, community research, and conflict resolution. This indicates a commitment to engaging the community and gathering input. 2. **Resident Representatives**: The involvement of resident representatives in the review meetings suggests an effort to ensure that community voices are heard at a higher level of decision-making. 3. **Dissatisfaction with Outcomes**: Despite the extensive process, some residents expressed dissatisfaction with the outcomes, particularly regarding key planning indicators that were not adjusted. This dissatisfaction points to a potential gap between the process of participation and the [...]
+
+--- DeepSeek-R1 (INCORRECT) ---
+ANSWER: False
+CHAIN-OF-THOUGHT:
+  Alright, so I'm trying to figure out whether the judgment in this urban planning case is correct. Let me break it down step by step. First, the government in M city renovated a large urban village and did a public participation process that took over a year. They had symposiums, did community research, handled conflicts of interest, and got resident representatives to attend the review meeting. That seems pretty thorough, right? But during the review by the Municipal Planning Commission, some key indicators like plot ratio and public service allocation ratio weren't adjusted. Plus, some residents were upset because they felt their input wasn't effective. So, the judgment says this shows the public participation form isn't perfect enough and breaks the legal procedures. Hmm. I need to think about what the legal standards are for public participation. Usually, public participation means [...]
+
+ANALYSIS:
+  Models correct: Claude, GPT-4o-mini
+  Models incorrect: DeepSeek-R1
+
+
+----------------------------------------------------------------------------------------------------
+Example 14: Phronetic Deficit (Analyze Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Phronetic Deficit
+Pillar: Planning Practice | Cognitive Level: Analyze | Item Index: 395
+
+DESCRIPTION: Diagnosing why an initially-supported eco/new-city scheme unravels in execution; weaker models lack situated implementation wisdom.
+
+QUESTION:
+Read the following materials and answer the question: In a strategic development project that combines ecological reconstruction and new city construction in a certain region, the initial planning scheme has strong implementation and has received widespread support. But after entering the execution stage, problems emerged one after another: lagging infrastructure led to repeated delays in land listing plans; The progress of different project packages varies greatly and lacks a unified rhythm; The delayed approval of several supporting facilities affects the overall planning of the project. Faced with the above issues, multiple parties have proposed the need to rebuild a project execution [...]
+
+GOLD ANSWER: Key points of reference answer
+
+--- Claude (CORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  This is a complex urban planning project management question. Let me break down the issues and think through a comprehensive solution: **Problems Identified:** 1. Infrastructure lagging - causing delays in land listing 2. Uneven progress across project packages - lack of coordination 3. Delayed approvals for supporting facilities - affecting overall planning 4. Need for flexibility while maintaining systematic approach **Key Concepts to Address:** - "System promotion" = systematic, coordinated advancement - "Elastic adjustment" = flexibility to adapt to changes - "Node supervision" = checkpoint-based monitoring - Complex project with ecological and urban development components **Project Management Principles to Apply:** 1. Work Breakdown Structure (WBS) 2. Critical Path Method (CPM) 3. Integrated Project Management 4. Adaptive/Agile approaches 5. Stakeholder coordination 6. Risk [...]
+
+--- QwQ-32B (CORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  To design an execution management mechanism suitable for this complex project, the following structured approach is proposed, integrating the principles of **system promotion**, **elastic adjustment**, and **node supervision**, while addressing the identified challenges: --- ### **1. System Promotion: Integrated Project Governance & Coordination** - **Centralized Coordination Body**: Establish a cross-functional steering committee with representatives from government, contractors, ecological experts, and community stakeholders. This body ensures alignment of infrastructure, ecological, and urban development components, resolving interdependencies and resource conflicts. - **Holistic Project Framework**: - Use **Integrated Project Delivery (IPD)** or **Systems Engineering** methodologies to manage the project as an interconnected system. - Develop a **Master Schedule** that synchronizes [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  To design an execution management mechanism suitable for a complex planning project that combines ecological reconstruction and new city construction, we need to address the identified issues systematically. The problems include lagging infrastructure, varying progress across project packages, and delayed approvals for supporting facilities. 1. **System Promotion**: This involves creating a framework that promotes collaboration among all stakeholders, including government agencies, contractors, and community members. Establishing a clear communication channel is essential to ensure that everyone is aligned with the project goals and timelines. Regular meetings and updates can help maintain transparency and accountability. 2. **Elastic Adjustment**: The mechanism should allow for flexibility in project execution. This means that if certain aspects of the project are lagging, resources [...]
+
+ANALYSIS:
+  Models correct: Claude, QwQ-32B
+  Models incorrect: GPT-4o-mini
+
+
+----------------------------------------------------------------------------------------------------
+Example 15: Phronetic Deficit (Apply Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Phronetic Deficit
+Pillar: Planning Practice | Cognitive Level: Apply | Item Index: 178
+
+DESCRIPTION: Selecting appropriate master-plan evaluation methods; weaker models include a method that misreads practical evaluation craft.
+
+QUESTION:
+A mid-sized city is undertaking a five-year review of its urban master plan. Which of the following approaches are appropriate methods to evaluate planning effectiveness? A. Before-and-after spatial analysis using GIS B. Stakeholder satisfaction survey C. Review of municipal income tax revenue D. Compliance audit of zoning permits E. Public consultation transcripts
+
+GOLD ANSWER: A, B, D
+
+--- Claude (CORRECT) ---
+ANSWER: A, B, D
+CHAIN-OF-THOUGHT:
+  Let me evaluate each approach as a method to assess planning effectiveness: **A. Before-and-after spatial analysis using GIS** - This is highly appropriate. GIS allows planners to measure tangible changes in land use, density, infrastructure, green space, etc. - Provides objective, quantifiable data on whether planned changes actually occurred - Can track metrics like sprawl reduction, transit accessibility, housing density - This is a standard professional tool in urban planning evaluation **B. Stakeholder satisfaction survey** - This is appropriate. Stakeholder feedback (residents, businesses, developers, workers) reveals whether the plan met community needs and expectations - Captures qualitative outcomes and quality of life improvements - Helps identify unintended consequences or gaps between plan intentions and reality - Important for democratic accountability and future planning [...]
+
+--- QwQ-32B (CORRECT) ---
+ANSWER: A, B, D
+CHAIN-OF-THOUGHT:
+  Okay, so I need to figure out which of the given options are appropriate methods to evaluate the effectiveness of a city's urban master plan during a five-year review. Let me start by recalling what urban planning evaluation typically involves. First, the question lists five options: A through E. I should go through each one and think about whether they make sense as evaluation methods. Starting with option A: Before-and-after spatial analysis using GIS. GIS (Geographic Information Systems) is a tool that helps visualize and analyze spatial data. Urban planners often use GIS to map out changes in land use, infrastructure, population distribution, etc. A before-and-after analysis would compare the current state of the city with the plans laid out in the master plan. This seems like a solid method because it can show how the physical layout and development align with the plan's goals. So [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: A, B, D
+CHAIN-OF-THOUGHT:
+  To evaluate the effectiveness of an urban master plan, it's essential to consider various methods that can provide insights into different aspects of the plan's implementation and outcomes. A. Before-and-after spatial analysis using GIS: This method allows for a visual and quantitative assessment of changes in land use, infrastructure, and urban form over time. It can effectively show the impact of the master plan on the city's spatial development. B. Stakeholder satisfaction survey: Gathering feedback from residents, businesses, and other stakeholders can provide valuable qualitative data on how well the plan meets community needs and expectations. This method is crucial for understanding public perception and satisfaction. C. Review of municipal income tax revenue: While this can indicate economic growth or decline, it may not directly reflect the effectiveness of the urban master [...]
+
+ANALYSIS:
+  Models correct: Claude, QwQ-32B
+  Models incorrect: GPT-4o-mini
+
+
+----------------------------------------------------------------------------------------------------
+Example 16: Phronetic Deficit (Analyze Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Phronetic Deficit
+Pillar: Planning Practice | Cognitive Level: Analyze | Item Index: 358
+
+DESCRIPTION: Resource-city transformation analysis; weaker models produce textbook synthesis without situated transformation judgement.
+
+QUESTION:
+Read the following materials and answer the question: R city was once a typical resource-based city, relying on coal, electricity, and heavy industry to form its industrial foundation. But in recent years, with the depletion of resources and the promotion of carbon reduction policies, R city has accelerated its urban economic transformation, established multiple science and technology innovation parks, and proposed a medium - to long-term strategy of building a "regional science and technology sub center". Please analyze from the perspective of urban economic development theory which type of theoretical orientation R city's current transformation logic belongs to, and point out the main [...]
+
+GOLD ANSWER: Key points of reference answer
+
+--- Claude (CORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  Let me analyze this urban transformation case systematically from the perspective of urban economic development theory. First, let me identify what R city is doing: 1. Moving away from resource-based industries (coal, electricity, heavy industry) 2. Establishing science and technology innovation parks 3. Aiming to become a "regional science and technology sub-center" Now, let me consider which urban economic development theories this aligns with: **Relevant Theoretical Frameworks:** 1. **Economic Base Theory** - The city is shifting its economic base from primary/secondary industries to tertiary/quaternary industries (knowledge-based) 2. **Innovation-Driven Development Theory** - Emphasizes technology, innovation, and knowledge as drivers of urban economic growth 3. **New Economic Geography/Agglomeration Theory** - Creating innovation parks to attract talent, firms, and create [...]
+
+--- QwQ-32B (CORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  R city's urban economic transformation aligns with the **innovation-driven or knowledge-based economy theory**, which emphasizes shifting from resource-dependent industries to high-tech, innovation, and knowledge-intensive sectors. This approach is rooted in theories such as the **"triple helix model"** (collaboration between government, academia, and industry) and the **"creative class" concept** (attracting talent through innovation ecosystems). The city’s focus on science parks and positioning itself as a "regional science and technology sub-center" reflects a strategic move toward agglomeration economies and innovation clusters, consistent with **new economic geography theories** that highlight the concentration of knowledge assets to drive growth. ### Main Obstacles to Implementation: 1. **Workforce Skills Mismatch**: The existing labor force, trained for resource-based or heavy [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  To analyze R city's transformation from a resource-based economy to a science and technology innovation hub, we can draw on urban economic development theories such as the "Creative Class" theory proposed by Richard Florida, the "New Economic Geography" by Paul Krugman, and the "Innovation Districts" concept. 1. **Creative Class Theory**: This theory emphasizes the importance of attracting and retaining talent as a key driver of economic growth. R city's shift towards a knowledge-based economy aligns with this theory, as it seeks to create an environment conducive to innovation and creativity. By establishing science and technology parks, R city aims to attract skilled professionals and entrepreneurs, which is essential for fostering a vibrant economic ecosystem. 2. **New Economic Geography**: This theory focuses on the spatial distribution of economic activities and the role of [...]
+
+ANALYSIS:
+  Models correct: Claude, QwQ-32B
+  Models incorrect: GPT-4o-mini
+
+
+====================================================================================================
+SECTION 4.5 — Cross-National Institutional Asymmetry
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+Example 17: Institutional Terminology (Origin Effect) (Remember Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Institutional Terminology (Origin Effect)
+Pillar: Planning Governance | Cognitive Level: Remember | Item Index: 15
+
+DESCRIPTION: Recall of the "institutional fragmentation" construct; reasoning models trained on differing corpora diverge on institutional vocabulary.
+
+QUESTION:
+When overlapping jurisdictions, sectoral silos, and lack of coordination impede planning execution, the issue is described as _________.
+
+GOLD ANSWER: institutional fragmentation
+
+--- Claude (CORRECT) ---
+ANSWER: institutional fragmentation
+CHAIN-OF-THOUGHT:
+  This question is asking about a specific urban planning term or concept that describes the problems created when: 1. Overlapping jurisdictions exist 2. Sectoral silos are present 3. Lack of coordination impedes planning execution Let me think through what these issues represent: - Overlapping jurisdictions: Multiple government bodies or administrative units have authority over the same area or issue - Sectoral silos: Different sectors (transportation, housing, environment, etc.) operate independently without integration - Lack of coordination: These entities don't work together effectively These are classic problems in urban planning that prevent effective implementation of plans. The term that describes this overall condition is "fragmentation" - specifically "institutional fragmentation" or "administrative fragmentation." This is a well-established concept in urban planning literature [...]
+
+--- QwQ-32B (INCORRECT) ---
+ANSWER: institutional fragmentation
+CHAIN-OF-THOUGHT:
+  Okay, so I need to figure out the term that describes when overlapping jurisdictions, sectoral silos, and lack of coordination cause problems in planning execution. Let me start by breaking down the question. First, the key elements here are overlapping jurisdictions, which means different authorities or agencies have overlapping areas of responsibility. Sectoral silos refer to different sectors or departments working in isolation, not sharing information or collaborating. And the lack of coordination between these groups leads to issues in executing plans. The question is asking for the term that describes this situation. Hmm, I remember that in urban planning and public policy, there are specific terms for such issues. Let me think. Maybe "intergovernmental fragmentation"? Or "jurisdictional fragmentation"? Wait, there's also "governance fragmentation" or "institutional [...]
+
+--- DeepSeek-R1 (INCORRECT) ---
+ANSWER: institutional fragmentation
+CHAIN-OF-THOUGHT:
+  Alright, so I'm trying to figure out what the question is asking. The question is about urban planning issues that arise when overlapping jurisdictions, sectoral silos, and lack of coordination impede planning execution. It says that this situation is described as something, and I need to fill in the blank. First, I need to understand each of the terms mentioned: overlapping jurisdictions, sectoral silos, and lack of coordination. Overlapping jurisdictions refer to situations where different government agencies or levels of government have responsibilities that overlap or interfere with each other. For example, planning might be handled by both the city and state government, which could lead to conflicting regulations or duplication of efforts. Sectoral silos mean that different sectors or departments within a government or organization are somewhat separated or don't work together [...]
+
+ANALYSIS:
+  Models correct: Claude
+  Models incorrect: QwQ-32B, DeepSeek-R1
+
+
+----------------------------------------------------------------------------------------------------
+Example 18: Jurisdiction-Specific Implementation (Origin Effect) (Apply Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Jurisdiction-Specific Implementation (Origin Effect)
+Pillar: Planning Governance | Cognitive Level: Apply | Item Index: 221
+
+DESCRIPTION: Measures strengthening statutory-planning execution within a Chinese governance architecture; performance tracks institutional grounding rather than scale.
+
+QUESTION:
+Which of the following measures can effectively enhance the execution of statutory planning in the implementation and management process of urban and rural planning? A. Linking control and land transfer to achieve "control and management of land parcels". B. Introducing a "planning implementation evaluation" system to regularly inspect the implementation of planning objectives. C. Establishing a cross departmental joint approval mechanism to shorten the permit period. D. Promoting the "capacity deficiency approval" model to accelerate project approval efficiency. E. Establishing a reporting and accountability system for the implementation of urban and rural planning
+
+GOLD ANSWER: A,B,C,E
+
+--- Claude (CORRECT) ---
+ANSWER: A,B,C,E
+CHAIN-OF-THOUGHT:
+  Let me analyze each option to determine which measures effectively enhance the execution of statutory planning in urban and rural planning implementation and management. **Option A: Linking control and land transfer to achieve "control and management of land parcels"** - This connects planning controls with land transfer mechanisms - Ensures that land development follows statutory planning requirements - Makes planning enforceable through the land market mechanism - This is a substantive measure that directly enforces statutory planning **Option B: Introducing a "planning implementation evaluation" system** - Regular inspection of planning objective implementation - Provides monitoring and assessment of whether plans are being executed - Helps identify gaps between plan and reality - Supports accountability and adaptive management - This is an effective supervisory and evaluation [...]
+
+--- DeepSeek-R1 (CORRECT) ---
+ANSWER: A,B,C,E
+CHAIN-OF-THOUGHT:
+  Alright, so I'm trying to figure out which measures can effectively enhance the execution of statutory planning in urban and rural planning. The question gives me five options: A, B, C, D, and E. I need to analyze each one and see which ones are the most effective. First, let's break down what each option is suggesting. Option A talks about linking control and land transfer to achieve "control and management of land parcels." That sounds like it's about ensuring that land is properly managed and transferred according to the planning laws. It probably helps in maintaining the integrity of the planning process by making sure that land ownership and use are under control. Option B introduces a "planning implementation evaluation" system. This seems like a way to regularly check if the planning objectives are being met. It would involve monitoring and assessing the progress, which can help [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: A,B,C,E
+CHAIN-OF-THOUGHT:
+  To enhance the execution of statutory planning in urban and rural areas, it's essential to consider measures that improve coordination, accountability, and efficiency in the planning process. A. Linking control and land transfer to achieve "control and management of land parcels" can help ensure that land use aligns with planning objectives, but it may not directly enhance execution if not coupled with effective management practices. B. Introducing a "planning implementation evaluation" system is crucial for monitoring progress and ensuring that planning objectives are met. Regular inspections can help identify issues early and allow for timely adjustments. C. Establishing a cross-departmental joint approval mechanism can significantly reduce the time it takes to obtain necessary permits, which is often a bottleneck in the planning process. This measure promotes collaboration among [...]
+
+ANALYSIS:
+  Models correct: Claude, DeepSeek-R1
+  Models incorrect: GPT-4o-mini
+
+
+----------------------------------------------------------------------------------------------------
+Example 19: Institutional Context Sensitivity (Origin Effect) (Analyze Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Institutional Context Sensitivity (Origin Effect)
+Pillar: Planning Practice | Cognitive Level: Analyze | Item Index: 324
+
+DESCRIPTION: Urban-rural evolution in a Chinese mountainous-county scenario; China-context reasoning separates correct from incorrect models.
+
+QUESTION:
+Read the following materials and answer the question: A mountainous county is located on the edge of the region, which used to be dominated by traditional agriculture, with limited transportation and scattered villages. In recent years, with the construction of highways and regional railways, local county towns have become logistics and agricultural product processing centers, and multiple central villages have been transformed into small towns, attracting regional populations to migrate towards them. At the same time, there are problems of "population hollowing out" and "land abandonment" around some central villages, posing challenges to the integrated development of urban and rural [...]
+
+GOLD ANSWER: Key points of reference answer
+
+--- Claude (CORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  Let me analyze this systematically using urban-rural development theory and urbanization stages. **Current Situation Analysis:** 1. Traditional mountainous county with scattered villages 2. Recent infrastructure development (highways, railways) 3. County town becoming a logistics/processing hub 4. Central villages transforming into small towns 5. Population migration toward these centers 6. Problems: population hollowing out in peripheral areas, land abandonment **Theoretical Framework:** - Urban-rural relations theory: The relationship between urban and rural areas evolves through stages - Urbanization development stages: Pre-urbanization → Early urbanization → Mid-urbanization → Late urbanization - This county appears to be in early-to-mid urbanization stage with uneven development **Evolution Trend Analysis:** 1. **Spatial restructuring**: Hierarchical settlement system emerging [...]
+
+--- QwQ-32B (CORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  Okay, let's tackle this question. The user wants me to analyze the evolution of the urban-rural pattern in a mountainous county and suggest planning strategies based on urban-rural relations and urbanization stages. First, I need to recall the theories related to urbanization and urban-rural dynamics. The county was traditionally agricultural with scattered villages and limited transport. Now, with highways and railways, the county towns have become logistics and processing centers. Central villages are turning into small towns, attracting people, but there's population hollowing and land abandonment around some central villages. The challenge is integrated urban-rural development. The county is likely in the **take-off or maturation stage** of urbanization, where infrastructure development boosts urban centers. The growth of county towns and small towns indicates a shift toward [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  To analyze the evolution trend of the urban-rural pattern in the mountainous county, we can apply the theory of urban-rural relations and the stages of urbanization development. 1. **Urban-Rural Relations**: The relationship between urban and rural areas is dynamic and can be characterized by the flow of resources, people, and services. In this case, the construction of highways and railways has facilitated the movement of goods and people, leading to the growth of logistics and agricultural processing centers. This indicates a shift from a traditional agricultural economy to a more integrated economic model where urban centers are becoming hubs for rural production. 2. **Urbanization Development Stages**: The county appears to be transitioning from a pre-industrial stage, characterized by traditional agriculture and limited infrastructure, to an industrial or post-industrial stage, [...]
+
+ANALYSIS:
+  Models correct: Claude, QwQ-32B
+  Models incorrect: GPT-4o-mini
+
+
+----------------------------------------------------------------------------------------------------
+Example 20: Institutional Context Sensitivity (Origin Effect) (Analyze Level)
+----------------------------------------------------------------------------------------------------
+Diagnostic: Institutional Context Sensitivity (Origin Effect)
+Pillar: Planning Practice | Cognitive Level: Analyze | Item Index: 332
+
+DESCRIPTION: "Industry-city integration zone" analysis embedded in Chinese spatial-planning practice; weaker US-pattern reasoning underperforms.
+
+QUESTION:
+Read the following materials and answer the question: As an emerging city, Y city has gradually shifted its urban land use from single industrial and agricultural land to multifunctional comprehensive land with the increase of population and economic development. In this transformation process, the Y city government has proposed the goal of building an "industry city integration zone" in urban planning, which includes modern industrial parks, commercial and cultural areas, residential areas, and supporting public facilities. Please analyze the main challenges faced by Y city in promoting the transformation of urban land functional zoning, and provide reasonable planning suggestions. [...]
+
+GOLD ANSWER: Key points of reference answer
+
+--- Claude (CORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  Let me analyze this urban planning question systematically. The context is: - Y city is an emerging city transitioning from single-use (industrial/agricultural) to multi-functional land use - Population and economic development are driving this change - Goal: Build an "industry-city integration zone" with mixed uses (industrial parks, commercial/cultural, residential, public facilities) - Need to identify challenges and provide planning suggestions Key challenges to consider: 1. Land use conflicts and compatibility issues 2. Infrastructure and service capacity 3. Environmental and sustainability concerns 4. Social and economic factors 5. Governance and implementation issues 6. Spatial planning complexities Let me structure a comprehensive response.
+
+--- QwQ-32B (CORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  Okay, so I need to figure out the main challenges Y city is facing in transforming its urban land use from single industrial and agricultural areas to a more integrated zone with industry, commerce, culture, residential areas, and public facilities. Then I have to suggest some planning strategies. Let me start by breaking down the problem. First, the city is emerging, so maybe it's growing quickly. The shift from single-use to multifunctional zones is part of urban development, but there must be challenges. Let me think about common issues in urban planning when changing land use. One challenge could be balancing different land uses. If they're mixing industries, residential, and commercial areas, there might be conflicts. Like, industrial areas might have pollution or noise that affects residents. How do they manage that? Maybe zoning within the multifunctional area? Or ensuring proper [...]
+
+--- GPT-4o-mini (INCORRECT) ---
+ANSWER: Key points of reference answer
+CHAIN-OF-THOUGHT:
+  To analyze the challenges faced by Y city in promoting the transformation of urban land functional zoning, we need to consider several factors that typically affect urban planning, especially in emerging cities. 1. **Infrastructure Development**: As Y city transitions to a multifunctional comprehensive land use, the existing infrastructure may not be adequate to support the new demands. This includes transportation networks, utilities, and public services. Upgrading or expanding infrastructure can be costly and time-consuming. 2. **Zoning Regulations**: The current zoning laws may not align with the new vision of an "industry city integration zone." Modifying these regulations to allow for mixed-use developments can face resistance from stakeholders who are accustomed to traditional zoning practices. 3. **Community Resistance**: Local communities may resist changes due to concerns about [...]
+
+ANALYSIS:
+  Models correct: Claude, QwQ-32B
+  Models incorrect: GPT-4o-mini
